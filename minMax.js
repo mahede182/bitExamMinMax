@@ -5,10 +5,10 @@ function minMaximum(){
 
     let max = data[0], min = data[0];
     for (let i = 0; i < data.length; i++) {
-        // minimum number
+        // maximum number
         if (data[i] > max) { max = data[i]; 
        }
-        // maximum number
+        // minimum number
         if (data[i] < min) { min = data[i];
     }
     console.log("minimux is:",min)
